@@ -3,58 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHADOWKING MOBILE DEV - متجر الألعاب</title>
+    <title>SHADOWKING MOBILE DEV</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, sans-serif;
-            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-            color: #fff; min-height: 100vh; padding: 20px;
+            background: #0f0f1a;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
         }
-        .container { max-width: 900px; margin: 0 auto; text-align: center; }
-        h1 { 
-            font-size: 3rem; margin: 30px 0 10px;
-            background: linear-gradient(45deg, #00dbde, #fc00ff);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
         }
-        .tagline { font-size: 1.2rem; color: #aaa; margin-bottom: 40px; }
-        .game-card {
-            background: rgba(255,255,255,0.1); border-radius: 20px;
-            padding: 30px; margin: 20px 0; backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.2);
+        h1 {
+            color: #7b2cbf;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px #7b2cbf;
         }
-        .game-title { font-size: 2rem; color: #00dbde; margin-bottom: 15px; }
-        .download-btn {
-            display: inline-block; background: linear-gradient(45deg, #00dbde, #fc00ff);
-            color: white; padding: 15px 40px; border-radius: 50px;
-            text-decoration: none; font-size: 1.3rem; font-weight: bold;
-            margin-top: 20px; transition: 0.3s;
+        .beta {
+            background: #ff006e;
+            color: white;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-bottom: 30px;
         }
-        .download-btn:hover { transform: scale(1.05); box-shadow: 0 0 30px #fc00ff; }
-        .coming-soon { opacity: 0.5; margin-top: 50px; }
-        .footer { margin-top: 60px; color: #666; }
+        .game {
+            background: #1a1a2e;
+            border: 2px solid #7b2cbf;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .btn {
+            background: #7b2cbf;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #9d4edd;
+        }
+        .footer {
+            margin-top: 50px;
+            color: #888;
+            font-size: 0.9em;
+            letter-spacing: 2px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>👑 SHADOWKING MOBILE DEV</h1>
-        <p class="tagline">متجر العاب الجوال الرسمي | العب. استمتع. سيطر.</p>
+        <h1>SHADOWKING MOBILE DEV</h1>
+        <div class="beta">نسخة البيتا 0.1</div>
         
-        <div class="game-card">
-            <h2 class="game-title">🎮 لعبة Shadow Battle</h2>
-            <p>لعبة اكشن وقتال اونلاين. تحدّى اصدقائك واصعد للصدارة في ساحة الملوك!</p>
-            <p><b>الحجم:</b> 85MB | <b>التقييم:</b> ⭐⭐⭐⭐⭐</p>
-            <a href="#" class="download-btn">⬇️ تحميل APK</a>
+        <div class="game">
+            <h2>Game 1 - قادم قريباً</h2>
+            <p>اول العابنا الخرافية للجوال 🔥</p>
+            <button class="btn">تحميل</button>
         </div>
 
-        <div class="game-card coming-soon">
-            <h2 class="game-title">🚀 العاب قادمة قريباً</h2>
-            <p>Shadow Racing | King of Cards | Zombie City</p>
+        <div class="game">
+            <h2>Game 2 - قيد التطوير</h2>
+            <p>مغامرة جديدة قريباً 👑</p>
+            <button class="btn">تحميل</button>
         </div>
 
         <div class="footer">
-            <p>© 2026 SHADOWKING MOBILE DEV. All rights reserved.</p>
-            <p>للتواصل: Discord | YouTube | Telegram</p>
+            POWERED BY ABUUD
         </div>
     </div>
 </body>
