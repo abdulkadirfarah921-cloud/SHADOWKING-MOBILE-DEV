@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHADOWKING MOBILE DEV - متجر الألعاب</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #fff; min-height: 100vh; padding: 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; text-align: center; }
+        h1 { 
+            font-size: 3rem; margin: 30px 0 10px;
+            background: linear-gradient(45deg, #00dbde, #fc00ff);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .tagline { font-size: 1.2rem; color: #aaa; margin-bottom: 40px; }
+        .game-card {
+            background: rgba(255,255,255,0.1); border-radius: 20px;
+            padding: 30px; margin: 20px 0; backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .game-title { font-size: 2rem; color: #00dbde; margin-bottom: 15px; }
+        .download-btn {
+            display: inline-block; background: linear-gradient(45deg, #00dbde, #fc00ff);
+            color: white; padding: 15px 40px; border-radius: 50px;
+            text-decoration: none; font-size: 1.3rem; font-weight: bold;
+            margin-top: 20px; transition: 0.3s;
+        }
+        .download-btn:hover { transform: scale(1.05); box-shadow: 0 0 30px #fc00ff; }
+        .coming-soon { opacity: 0.5; margin-top: 50px; }
+        .footer { margin-top: 60px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👑 SHADOWKING MOBILE DEV</h1>
+        <p class="tagline">متجر العاب الجوال الرسمي | العب. استمتع. سيطر.</p>
+        
+        <div class="game-card">
+            <h2 class="game-title">🎮 لعبة Shadow Battle</h2>
+            <p>لعبة اكشن وقتال اونلاين. تحدّى اصدقائك واصعد للصدارة في ساحة الملوك!</p>
+            <p><b>الحجم:</b> 85MB | <b>التقييم:</b> ⭐⭐⭐⭐⭐</p>
+            <a href="#" class="download-btn">⬇️ تحميل APK</a>
+        </div>
+
+        <div class="game-card coming-soon">
+            <h2 class="game-title">🚀 العاب قادمة قريباً</h2>
+            <p>Shadow Racing | King of Cards | Zombie City</p>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 SHADOWKING MOBILE DEV. All rights reserved.</p>
+            <p>للتواصل: Discord | YouTube | Telegram</p>
+        </div>
+    </div>
+</body>
+</html>
